@@ -116,7 +116,7 @@ public class fractal extends JComponent implements MouseListener, Runnable{
 	               RenderingHints.VALUE_RENDER_QUALITY);
 
 	        g2D.setRenderingHints(rh);
-	        g2D.translate(frame.getWidth()/2, frame.getHeight()/2);
+	        //g2D.translate(frame.getWidth()/2, frame.getHeight()/2);
 	        if(scale>=0.3)
 	        	g2D.scale(scale, scale);
 	        else
